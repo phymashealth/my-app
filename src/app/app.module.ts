@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { BrowserAnimationModule } from '@angular/platform-browser/animations';
-import { MatTollbarModule } from '@angular/material/toolbar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
@@ -13,8 +13,8 @@ import 'hammerjs';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationModule,
-    MatTollbarModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
     FlexLayoutModule
   ],
   providers: [],
