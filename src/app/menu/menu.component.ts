@@ -1,6 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import {Dish} from './share/Dish';
-
+//import {Dish} from './share/Dish';
+class Dish{
+  id:string;
+  name:string;
+  image:string;
+  category:string;
+  featured:boolean;
+  price:string;
+  description:string;
+}
 const DISHES:Dish[]=[
   
   { id:0,
