@@ -1,10 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Dish} from '../share/dish';
-@Component({
-  selector: 'app-menu',
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.css']
-})
+import {Dish} from './share/Dish';
+
 const DISHES:Dish[]=[
   
   { id:0,
@@ -24,6 +20,11 @@ const DISHES:Dish[]=[
     description:'glazed'
   },
 ];
+@Component({
+  selector: 'app-menu',
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.css']
+})
 export class MenuComponent implements OnInit {
 
   constructor() { }

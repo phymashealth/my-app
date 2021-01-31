@@ -6,5 +6,4 @@ export class Dish{
   featured:boolean;
   price:string;
   description:string;
-
 }
