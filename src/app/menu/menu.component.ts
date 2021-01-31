@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 //import {Dish} from './share/Dish';
 class Dish{
-  id:string;
+  id:number;
   name:string;
   image:string;
   category:string;
