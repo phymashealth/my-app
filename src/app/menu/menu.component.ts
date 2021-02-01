@@ -1,31 +1,37 @@
 import { Component, OnInit } from '@angular/core';
-//import {Dish} from './share/Dish';
+import { Dish } from '../share/dish';
 class Dish{
   id:number;
   name:string;
   image:string;
   category:string;
   featured:boolean;
+  label:string;
   price:string;
   description:string;
+  comments:any[];
 }
 const DISHES:Dish[]=[
   
   { id:0,
     name:'pizza',
-    image:'../asset/image/pizza',
+    image:'/assets/images/pizza.png',
     category:'large',
     featured:true,
+    label:'',
     price:'$12.99',
-    description:'3 toopings'
+    description:'3 toopings',
+    comments:[{}]
   },
-  { id:1,
-    name:'donut',
-    image:'../asset/image/donut',
-    category:'double',
-    featured:false,
-    price:'$5.99',
-    description:'glazed'
+  { id:0,
+    name:'pizza',
+    image:'/assets/images/pizza.png',
+    category:'large',
+    featured:true,
+    label:'',
+    price:'$12.99',
+    description:'3 toopings',
+    comments:[{}]
   },
 ];
 @Component({
