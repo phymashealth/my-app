@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Dish } from '../share/dish';
+import { Dish } from '../shared/dish';
 class Dish{
   id:number;
   name:string;
