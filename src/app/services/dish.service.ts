@@ -5,10 +5,12 @@ import { DISHES } from '../shared/dishes';
   providedIn: 'root'
 })
 export class DishService {
-dishes:Dish[]=DISHES;
-  constructor() { }
+//dishes:Dish[];
+  constructor() {
+    //this.dishes=DISHES;
+   }
   getDishes():Dish[]{
-    return this.dishes;
+    return DISHES;
   }
 }
 

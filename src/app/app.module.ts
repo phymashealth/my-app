@@ -7,7 +7,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import {CommonModule} from '@angular/common';
 import { AppComponent } from './app.component';
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
@@ -30,6 +30,7 @@ import { DishdetailComponent } from './dishdetail/dishdetail.component';
     MatGridListModule, 
     MatCardModule,
     MatButtonModule ,
+    CommonModule,
   ],
 
   bootstrap: [AppComponent]
