@@ -2,6 +2,23 @@
 @import '~@angular/material/prebuilt-themes/deeppurlpe-amber.css';
 @import 'varables';
 @import '../node_modules/font-awesome/less/font-awesome';
+@lt-gray:#ddd;
+@bg-dark:#512DA8;
+@bg-light:#9575CD;
+@bg-pale:#D1C4E9;
+@primary-color:#673ab7;
+@primary-color-dark:#512DA8;
+@primary-color-light:#D1C4E9;
+@primary-color-text:#ffffff;
+@primary-text-color:#212121;
+@secondary-text-color:#757575;
+@accent-color:#ffc107;
+@divider-color:#bdbdbd;
+
+.zero-margin(@pad-up-down,@pad-left-right){
+  margin:0px auto;
+  padding:@pad-up-down  @pad-left-right;
+}
 body{
   padding:0;
   margin: 0;
@@ -10,4 +27,16 @@ body{
 .container{
   margin: 20px;
   display: flex;
+}
+.background-primary{
+background-color: @bg-dark !important;
+}
+.background-accent{
+background-color: @accent-color !important;
+}
+.text-floral-white{
+  color:floralwhite !important;
+}
+.flex-spacer{
+  flex:1 1 auto;
 }
